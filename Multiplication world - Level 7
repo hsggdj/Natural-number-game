@@ -1,0 +1,11 @@
+induction b with c hc,
+rw add_zero,
+rw zero_mul,
+refl,
+
+rw succ_eq_add_one,
+rw ← add_assoc,
+repeat {rw ← succ_eq_add_one},
+repeat {rw succ_mul},
+rw hc,
+simp,
