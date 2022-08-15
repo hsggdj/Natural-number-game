@@ -1,0 +1,6 @@
+induction c with d hd,
+refl,
+
+rw add_succ,
+rw hd,
+refl,
