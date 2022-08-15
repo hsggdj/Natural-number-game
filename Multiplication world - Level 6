@@ -1,0 +1,8 @@
+induction b with c hc,
+repeat {rw mul_zero},
+refl,
+
+repeat {rw mul_succ},
+rw hc,
+repeat {rw add_succ},
+simp,
