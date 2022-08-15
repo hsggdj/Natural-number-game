@@ -1,0 +1,7 @@
+induction n with m hm,
+repeat {rw pow_zero},
+refl,
+
+repeat {rw pow_succ},
+rw hm,
+simp,
