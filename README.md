@@ -5,4 +5,4 @@ Written in Lean.
 
 More about me
 
-I am an undergraduate studying mathematics at the University of Oxford. I have spent some time learning Lean and wish to share my solutions here. I am open to any suggesstions and discussions.
+I am an undergraduate studying mathematics at the University of Oxford. I have spent some time learning Lean and wish to share my solutions here. I am open to any suggestions and discussions.
