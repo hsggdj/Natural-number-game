@@ -1,0 +1,4 @@
+intros f h p,
+apply h,
+apply f,
+exact p,
