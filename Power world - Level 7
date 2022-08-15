@@ -1,0 +1,11 @@
+induction n with c hc,
+rw pow_zero,
+rw mul_zero,
+rw pow_zero,
+refl,
+
+rw pow_succ,
+rw hc,
+rw mul_succ,
+rw pow_add,
+refl,
