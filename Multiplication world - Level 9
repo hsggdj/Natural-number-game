@@ -1,0 +1,4 @@
+rw ← mul_assoc,
+rw ← mul_assoc,
+rw mul_comm a, 
+refl,
