@@ -1,0 +1,5 @@
+cases h with c hc,
+use c,
+repeat {rw succ_eq_add_one},
+rw hc,
+simp,
