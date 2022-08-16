@@ -1,0 +1,6 @@
+cases b with c,
+refl,
+
+rw add_succ at H,
+exfalso,
+exact succ_ne_zero (a+d) H,
