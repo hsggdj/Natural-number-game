@@ -1,0 +1,5 @@
+intros h t,
+cases h with c hc,
+use c,
+rw hc,
+simp,
