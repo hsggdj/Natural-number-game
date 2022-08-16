@@ -1,0 +1,18 @@
+revert a,
+induction b with c hc,
+intro a,
+right,
+exact zero_le(a),
+
+intro a,
+cases a with d,
+left,
+exact zero_le(succ c),
+
+cases hc d,
+left,
+apply succ_le_succ d c,
+exact h,
+right,
+apply succ_le_succ c d,
+exact h,
