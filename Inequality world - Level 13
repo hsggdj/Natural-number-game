@@ -1,0 +1,8 @@
+intro h,
+induction a with b hb,
+apply succ_ne_zero 0,
+exact le_zero (succ 0) h,
+
+apply hb,
+apply le_of_succ_le_succ (succ b),
+exact h,
