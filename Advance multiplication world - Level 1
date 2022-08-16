@@ -1,0 +1,9 @@
+cases b with n,
+intros f h,
+apply h,
+
+intros f h,
+intro a,
+rw mul_succ at a,
+apply f,
+exact add_left_eq_zero(a),
