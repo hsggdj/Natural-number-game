@@ -1,0 +1,6 @@
+intro h,
+cases h with c hc,
+use c,
+rw succ_add at hc,
+apply succ_inj,
+exact hc,
