@@ -1,0 +1,9 @@
+intro h,
+induction t with s hs,
+rw add_zero at h,
+rw add_zero at h,
+exact h,
+
+repeat {rw add_succ at h},
+apply hs,
+exact succ_inj(h),
