@@ -1,0 +1,12 @@
+intro h,
+split,
+cases h with c hc,
+use c + 1,
+rw hc,
+rw succ_eq_add_one,
+simp,
+
+intro h1,
+have h2 := le_trans (succ a) b a h h1,
+apply not_succ_le_self a,
+exact h2,
