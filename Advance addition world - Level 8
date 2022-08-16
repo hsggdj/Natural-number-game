@@ -1,0 +1,5 @@
+rw ← add_zero a,
+rw add_assoc a,
+rw add_comm 0,
+rw add_zero b,
+exact add_left_cancel a b 0,
