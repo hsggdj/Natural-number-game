@@ -1,0 +1,6 @@
+split,
+intro h,
+exact lt_aux_one a b h,
+
+intro h,
+exact lt_aux_two a b h,
