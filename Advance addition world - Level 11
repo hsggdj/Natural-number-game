@@ -1,0 +1,3 @@
+rw add_comm a,
+intro h,
+exact add_left_eq_zero h,
